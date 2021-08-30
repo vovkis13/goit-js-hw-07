@@ -7,7 +7,6 @@ const incrementBtnRef = document.querySelector(
   'button[data-action="increment"]'
 );
 const valueRef = document.querySelector("span#value");
-console.log(valueRef);
 
 function decrement() {
   counterValue -= 1;
